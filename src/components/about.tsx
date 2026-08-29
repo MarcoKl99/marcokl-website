@@ -2,8 +2,6 @@ import { Reveal } from "./reveal";
 
 const STACK = [
   "Python",
-  "TypeScript",
-  "Go",
   "React",
   "Django",
   "FastAPI",
@@ -12,8 +10,7 @@ const STACK = [
   "Airflow",
   "Azure",
   "Java",
-  "Jenkins",
-  "LLM APIs",
+  "Machine Learning",
 ];
 
 export function About() {

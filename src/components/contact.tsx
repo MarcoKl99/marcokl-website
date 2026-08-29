@@ -1,9 +1,9 @@
 import { Reveal } from "./reveal";
 
 const SOCIALS = [
-  { label: "Email", href: "mailto:hello@marcokl.ch" },
-  { label: "GitHub", href: "#" },
-  { label: "LinkedIn", href: "#" },
+  { label: "Email", href: "mailto:contact@marcokl.ch" },
+  { label: "GitHub", href: "https://github.com/MarcoKl99" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/marco-kleimaier-739359193/" },
 ];
 
 export function Contact() {
@@ -20,6 +20,8 @@ export function Contact() {
             <a
               key={social.label}
               href={social.href}
+              target={social.href.startsWith("http") ? "_blank" : undefined}
+              rel={social.href.startsWith("http") ? "noopener noreferrer" : undefined}
               className="rounded-full border border-white/10 px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-white/30"
             >
               {social.label}

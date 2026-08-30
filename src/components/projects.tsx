@@ -34,7 +34,7 @@ export function Projects() {
       <Reveal>
         <h2 className="font-mono text-sm text-accent">Personal Projects</h2>
         <p className="mt-4 max-w-2xl text-2xl font-medium leading-snug text-foreground sm:text-3xl">
-          What I build in my own time — AI, from the ground up.
+          What I build in private — AI, from the ground up.
         </p>
       </Reveal>
 

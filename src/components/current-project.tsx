@@ -4,16 +4,16 @@ const STATS = [
   {
     label: "Focus",
     value:
-      "Testing open-weight models against prompt injection attacks in untrusted environments.",
+      "Evaluating the robustness of open-weight LLMs against prompt injection attacks in untrusted environments.",
   },
   {
-    label: "Outcome",
-    value: "Which LLM backbones are actually suitable for secure agentic applications.",
+    label: "Objective",
+    value: "Determine which LLM backbones are suitable for secure agentic applications.",
   },
   {
-    label: "Why it matters",
+    label: "Significance",
     value:
-      "Companies are racing to ship agentic workflows while security gets little attention. Early results show LLM agents are highly exploitable on untrusted data — across model families, sizes, and attack vectors.",
+      "Organizations are deploying agentic workflows with minimal security assessment. Initial findings demonstrate that LLM-based agents are vulnerable on untrusted data across different model families, sizes, and attack vectors.",
   },
 ];
 
@@ -47,11 +47,11 @@ export function CurrentProject() {
             </h3>
 
             <p className="mt-4 max-w-3xl text-sm text-muted sm:text-base">
-              I&apos;m evaluating open-weight LLMs on their resistance to
-              prompt injection attacks by integrating them into ETH
-              Zurich&apos;s AgentDojo framework, running benchmarks across
-              untrusted environments, and producing structured security
-              reports.
+              I&apos;m evaluating open-weight LLMs for their resistance to prompt
+              injection attacks. Using ETH Zurich&apos;s AgentDojo framework, I
+              systematically test models against various attack vectors in
+              untrusted environments and document findings on security
+              vulnerabilities.
             </p>
 
             <div className="mt-8 grid gap-6 sm:grid-cols-3">

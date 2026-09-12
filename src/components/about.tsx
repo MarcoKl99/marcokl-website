@@ -19,12 +19,11 @@ export function About() {
       <Reveal>
         <h2 className="font-mono text-sm text-accent">About</h2>
         <p className="mt-4 max-w-2xl text-2xl font-medium leading-snug text-foreground sm:text-3xl">
-          I am a data engineer with six years of experience in software
-          development. I started out in classic software engineering, and
-          today I bring that same discipline — clean code, solid
-          architecture, tests that hold up — into building reliable data
-          platforms and pipelines. Outside of work, I am deepening my
-          focus on machine learning.
+          I&apos;m a data engineer with six years of software development experience.
+          I started in traditional software engineering and now apply those
+          principles to data infrastructure — disciplined code, solid
+          architecture, comprehensive testing. I build data platforms
+          professionally and focus on machine learning in my own time.
         </p>
       </Reveal>
 

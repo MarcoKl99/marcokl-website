@@ -50,9 +50,8 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 max-w-xl text-lg text-muted"
         >
-          I build fast, thoughtful software — from idea to production. Clean
-          architecture, sharp interfaces, code that still makes sense in two
-          years.
+          I build software that&apos;s fast and reliable. Clean architecture,
+          well-designed interfaces, code that remains maintainable over time.
         </motion.p>
 
         <motion.div

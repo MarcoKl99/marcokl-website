@@ -1,26 +1,14 @@
 "use client";
 
-import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
-import type { PointerEvent } from "react";
+import { motion } from "framer-motion";
 
 export function Hero() {
-  const mouseX = useMotionValue(0);
-  const mouseY = useMotionValue(0);
-  const background = useMotionTemplate`radial-gradient(600px circle at ${mouseX}px ${mouseY}px, rgba(124, 92, 255, 0.15), transparent 70%)`;
-
-  function handlePointerMove(event: PointerEvent<HTMLElement>) {
-    const bounds = event.currentTarget.getBoundingClientRect();
-    mouseX.set(event.clientX - bounds.left);
-    mouseY.set(event.clientY - bounds.top);
-  }
-
   return (
     <section
       id="home"
-      onPointerMove={handlePointerMove}
       className="relative flex min-h-screen items-center overflow-hidden"
     >
-      <motion.div className="pointer-events-none absolute inset-0" style={{ background }} />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-transparent" />
 
       <div className="pointer-events-none absolute left-1/2 top-1/3 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/20 blur-[120px]" />
       <div className="pointer-events-none absolute right-0 bottom-0 h-[400px] w-[400px] rounded-full bg-accent-2/10 blur-[120px]" />
